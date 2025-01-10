@@ -16,7 +16,7 @@ function impostosalario(){
         desconto=(salario*0.075)-169.44
         
     
-        alert.write("VOCÊ ESTÁ INSENTO DE IMPOSTOS")
+        alert("VOCÊ ESTÁ INSENTO DE IMPOSTOS")
      
     } 
 
