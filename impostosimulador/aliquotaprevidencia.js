@@ -21,7 +21,7 @@ function calcPrevidencia(){
     desconto=(salario*0.075)
     liquido = salario - desconto
 
-    document.write("Seu salário após descontos de " +desconto+ ", será: "+liquido)
+    alert("Seu salário após descontos de " +desconto+ ", será: "+liquido)
  
     } 
 
@@ -30,7 +30,7 @@ function calcPrevidencia(){
     desconto=(salario*0.09)- 21.18
     liquido = salario - desconto
 
-    document.write("Seu salário após descontos de" +desconto+ ", será: "+liquido)
+    alert("Seu salário após descontos de " +desconto+ ", será: "+liquido)
  
     } 
 
@@ -39,7 +39,7 @@ function calcPrevidencia(){
     desconto=(salario*0.12) - 101.18
     liquido = salario - desconto
 
-    document.write("Seu salário após descontos de" +desconto+ ", será: "+liquido)
+    alert("Seu salário após descontos de " +desconto+ ", será: "+liquido)
  
     } 
     if(salario >= 4000.04 && salario <= 7786.02){
@@ -47,7 +47,7 @@ function calcPrevidencia(){
     desconto=(salario*0.14) - 181.18
     liquido = salario - desconto
 
-    document.write("Seu salário após descontos de" +desconto+ ", será: "+liquido)
+    alert("Seu salário após descontos de " +desconto+ ", será: "+liquido)
  
     } 
 
@@ -69,10 +69,10 @@ function calcPrevidencia2(){
         desconto=(salario*0.05) - 70.70
         liquido = salario - desconto
     
-        document.write("Seu salário após descontos de " +desconto+ ", será: "+liquido)
+        alert("Seu salário após descontos de " +desconto+ ", será: "+liquido)
      
         } else{
-            alert("Seu salároi não se encaixa nessa alíquota!")
+            alert("Seu salário não se encaixa nessa alíquota!")
         }
 
 }
@@ -90,7 +90,7 @@ function calcPrevidencia3(){
         desconto=(salario*0.11) - 155.32
         liquido = salario - desconto
     
-        document.write("Seu salário após descontos de " +desconto+ ", será: "+liquido)
+        alert("Seu salário após descontos de " +desconto+ ", será: "+liquido)
      
         } else{
             alert("Seu salároi não se encaixa nessa alíquota!")
@@ -111,7 +111,7 @@ function calcPrevidencia4(){
         desconto=(salario*0.12) - 169.44
         liquido = salario - desconto
     
-        document.write("Seu salário após descontos de " +desconto+ ", será: "+liquido)
+        alert("Seu salário após descontos de " +desconto+ ", será: "+liquido)
      
         } else{
             alert("Seu salároi não se encaixa nessa alíquota!")
